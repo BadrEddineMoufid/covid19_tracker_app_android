@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Covid19_tracker_app</string>
+    <string name="btnText">Track individual countries</string>
+</resources>

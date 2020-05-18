@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/selectableItemBackground"
+
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:id="@+id/countryImage"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/countryName"
+        android:layout_gravity="center_vertical"
+        tools:text="Country Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingStart="15dp"
+        android:layout_toRightOf="@id/countryImage"
+
+        />
+
+   <LinearLayout
+       android:layout_alignBottom="@id/countryImage"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="5dp">
+       <TableRow
+           android:id="@+id/hr"
+
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@android:color/darker_gray" />
+
+   </LinearLayout>
+
+</RelativeLayout>
