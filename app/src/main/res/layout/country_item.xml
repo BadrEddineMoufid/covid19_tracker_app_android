@@ -4,14 +4,14 @@
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="?attr/selectableItemBackground"
-
+    android:padding="10dp"
     >
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="60dp"
         android:id="@+id/countryImage"
-        android:padding="5dp"
+        android:padding="10dp"
         />
     <TextView
         android:layout_marginTop="15dp"
@@ -22,24 +22,10 @@
         tools:text="Country Name"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:paddingStart="15dp"
+        android:layout_marginStart="10dp"
         android:layout_toRightOf="@id/countryImage"
 
         />
 
-   <LinearLayout
-       android:layout_alignBottom="@id/countryImage"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:orientation="vertical"
-       android:padding="5dp">
-       <TableRow
-           android:id="@+id/hr"
-
-           android:layout_width="match_parent"
-           android:layout_height="1dp"
-           android:background="@android:color/darker_gray" />
-
-   </LinearLayout>
 
 </RelativeLayout>
